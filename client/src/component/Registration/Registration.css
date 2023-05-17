@@ -1,0 +1,40 @@
+.div-li {
+  display: inline-grid;
+}
+.input-r {
+  margin: 0.5em;
+  margin-left: 0;
+  padding: 1em;
+  display: block;
+  overflow: scroll;
+}
+.label-r {
+  margin: 0.1em;
+  padding: 0.5em;
+  display: block;
+}
+.btn-add {
+  width: 40%;
+  font-size: 0.9em;
+  padding: 1em;
+  margin: 1em;
+}
+.note {
+  width: 82%;
+  padding: 11px;
+  font-size: 0.9em;
+  padding-left: 1px;
+  margin-left: 10px;
+  text-align: justify;
+  max-height: 120px;
+  color: rgb(56, 56, 56);
+  overflow: auto;
+  line-height: 1.5em;
+}
+
+.registerText{
+  font-size: 0.8em;
+  margin-left: 10px;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+}

@@ -1,0 +1,155 @@
+/* body{
+    background-image: none;
+} */
+
+.heading {
+    font-size: 3.5em;
+    font-weight: 500;
+    color: #1f1f1f;
+    margin-left: 120px;
+}
+.caption {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.horBreak{
+    margin-left: 110px;
+    margin-right: 120px;
+    border-top: 0.01px solid rgb(219, 219, 219);
+}
+
+.landingBtn1{
+    background-color: transparent;
+    font-size: 1.1em;
+    padding: 12px 8px;
+    margin-left: 120px;
+    border-radius: 5px;
+    color: #222222;
+}
+.landingBtn1:hover{
+    background-color: #444;
+    color: #fff;
+}
+
+.landingBtn2{
+    background-color: #444;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 5px;
+    padding: 12px 4px;
+}
+.landingBtn2:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.NavLinkBtn1{
+    color: #1f1f1f;
+    padding: 12px;
+}
+
+.NavLinkBtn1:hover{
+    color: #fff;
+    padding: 12px;
+}
+
+.NavLinkBtn2{
+    padding: 12px;
+}
+
+.NavLinkBtn2:hover{
+    color: #fff;
+    padding: 12px;
+}
+
+
+/* LearnMore CSS */
+
+.headingLearn {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #1f1f1f;
+    margin-left: 120px;
+}
+
+.img-fluid{
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 1.8px solid #444444;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.lead{
+    /* margin-left: 120px; */
+    /* width: 50%; */
+    color: #141414;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.content1{
+    /* margin-left: 120px; */
+    color: #111111;
+    padding: 5px;
+    font-size: 1.02em;
+    text-align: justify;
+    /* width: 50%; */
+}
+
+.lead2{
+    /* margin-left: 120px; */
+    /* width: 50%; */
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+/* .containerLearn {
+    background-color: #f2f2f2;
+    border-color: #1a1a1a;
+    border: 1px;
+    border-radius: 7px;
+    width: 50%;
+    padding: 10px;
+    margin-left: 120px;
+} */
+
+.containerLearn2 {
+    background-image: linear-gradient(to right, #f8ccb1, #fdf1b8, #f8ccb1);
+    border-color: #1a1a1a;
+    border: 1px;
+    border-radius: 7px;
+    width: 60%;
+    padding: 10px;
+    margin-left: 110px;
+}
+
+.containerLearnMore {
+    background-image: linear-gradient(to top, #aec5d6, #eef2f3);
+    border-color: #1a1a1a;
+    border: 1px;
+    border-radius: 7px;
+    width: 60%;
+    padding: 17px;
+    margin-left: 110px;
+  }
+
+
+/* Extra images
+
+ .collegeLogo{
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 12em;
+}
+
+.collegeLogo2{
+    margin-top: -560px;
+    margin-left: 800px;
+    width: 40em;
+} */

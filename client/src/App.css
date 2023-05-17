@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+code {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.container-main {
+  background-color: none;
+  padding: 1%;
+  margin: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  overflow: auto;
+}
+
+.container-item {
+  transition: ease all 0.5s;
+  background-image: linear-gradient(to top, #aec5d6, #eef2f3);
+  border-color: #1a1a1a;
+  border: 1px;
+  border-radius: 7px;
+  width: 977px;
+  padding: 17px;
+  margin: 17px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+}
+
+
+.title {
+  text-transform: capitalize;
+}
+
+.container-list {
+  width: 100%;
+  padding: 15px;
+  margin: 3px auto;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  overflow: auto;
+}
+
+.container-list-2 {
+  /* width: 100%; */
+  padding: 20px;
+  margin: 3px auto;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  overflow: auto;
+}
+
+.center-items {
+  display: grid;
+  border: 1px;
+  border-color: #1a1a1a;
+  place-items: center;
+}
+
+@media all and (max-width: 1020px) {
+  .container-item {
+    width: 777px;
+  }
+}
+@media all and (max-width: 900px) {
+  .container-item {
+    width: 800px;
+    display: block;
+  }
+}
+@media all and (max-width: 850px) {
+  .container-item {
+    width: 700px;
+  }
+}
+@media all and (max-width: 750px) {
+  .container-item {
+    width: 600px;
+  }
+}
+@media all and (max-width: 650px) {
+  .container-item {
+    width: 400px;
+  }
+}
+@media all and (max-width: 400px) {
+  .container-item {
+    width: 300px;
+  }
+}
+
+.info,
+.attention,
+.general,
+.alert,
+.success {
+  border: 1px solid black;
+  margin-top: 11px;
+  margin-bottom: 11px px;
+}
+/* .info {
+  background-color: #ddffff;
+} */
+
+.info {
+  background-image: linear-gradient(to right, #a9dda2, #d4f8e3, #a9dda2);
+}
+.attention {
+  background-image: linear-gradient(to right, #f8ccb1, #fdf1b8, #f8ccb1);
+}
+.success {
+  background-color: #ddffdd;
+}
+
+.startBtn{
+  background-color: #a6c1d6;
+  color: #1a1a1a;
+  font-size: medium;
+}
+.startBtn:hover{
+  background-color: #3a5569;
+  color: #ddffdd;
+}
